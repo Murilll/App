@@ -2,7 +2,7 @@
 
 while (true)
 {
-    Console.WriteLine("1 --- Questão 1\n2 --- Questão 2\n3 --- Questão 3\n4 --- Questão 4\n5 --- Questão 5\n6 --- Questão 6\n");
+    Console.WriteLine("\n1 --- Questão 1\n2 --- Questão 2\n3 --- Questão 3\n4 --- Questão 4\n5 --- Questão 5\n6 --- Questão 6\n");
     int escolhaQuestao = Convert.ToInt32(Console.ReadLine());
 
     switch (escolhaQuestao)
@@ -45,7 +45,7 @@ while (true)
             float salario = hora * 220;
             Console.WriteLine($"Seu salário mensal foi: R${salario}");
 
-            Console.WriteLine("\n\n");
+            Console.WriteLine("\n");
             break;
 
         case 3:
@@ -71,25 +71,28 @@ while (true)
             {
                 case 1:
                     Console.WriteLine("Monday");
-                    break;
+                    break ;
                 case 2:
                     Console.WriteLine("Tuesday");
-                    break;
+                    break ;
                 case 3:
                     Console.WriteLine("Wednesday");
-                    break;
+                    break ;
                 case 4:
                     Console.WriteLine("Thursday");
-                    break;
+                    break ;
                 case 5:
                     Console.WriteLine("Friday");
-                    break;
+                    break ;
                 case 6:
                     Console.WriteLine("Saturday");
-                    break;
+                    break ;
                 case 7:
                     Console.WriteLine("Sunday");
-                    break;
+                    break ;
+                default:
+                    Console.WriteLine("ERROR");
+                    break ; 
             }
             break;
 
